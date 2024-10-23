@@ -1,4 +1,4 @@
-#A 1x3 Router Design And Verification
+# 1x3 Router Design And Verification
 A router is a networking device that forwards data packets between computer LANs. It follows the TCP/IP layer 3 network protocol.
 
 ## About The Project
