@@ -29,7 +29,7 @@ Synchroniser captures the address of the packet and generates a write enable sig
 To store packets based on the relevant address given by the source LAN.
 
 ## Verification
-Verification was done using system verilog and UVM framework. Various constraints were added to limit the randomized values to meaningful values. Explicit bins were added for coverage and regressive testing was done using different test cases which simulated a small packets, medium packets and Large packets.
+Verification was done using system verilog and UVM framework. Various constraints were added to limit the randomized values to meaningful values. Explicit bins were added for coverage and regressive testing was done using different test cases which simulated small packets, medium packets and Large packets.
 
 
 
