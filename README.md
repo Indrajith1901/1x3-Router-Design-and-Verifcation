@@ -10,7 +10,7 @@ TB Methodology: UVM
 EDA Tools: Synopsis - VCS / Siemens - Questa Sim and Xilinx ISE
 
 ## Input Protocol
-All inputs are synchronous to clock and driven at negedge to avoid meta stability between DUT and testbench.Pkt_valid goes high when the first packet enters. If busy is high then the transaction is extended. Before driving parity byte pkt_valid goes low. When pkt_valid goes high busy goes high.
+All inputs are synchronous to the clock and driven at negedge to avoid meta stability between DUT and testbench.Pkt_valid goes high when the first packet enters. If busy is high then the transaction is extended. Before driving parity byte pkt_valid goes low. When pkt_valid goes high busy goes high.
 
 ## Output Protocol
 Output is synchronous to the posedge to the clock and inputs data_in and pkt_valid are synchronous to the negedge of the clock. When valid_out is high, after 30 cycles soft reset will go high and internal reset will happen. The read_enb signal should go high before that to prevent it from happening.
